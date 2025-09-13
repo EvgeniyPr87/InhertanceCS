@@ -27,7 +27,7 @@ namespace Academy
          //   Console.WriteLine($"SConstructor:\t {GetHashCode().ToString("X")}"); 
         }
         //~Student() => Console.WriteLine($"SDestructor:\t{GetHashCode().ToString("X")}"); 
-        public override string ToString()=> base.ToString() + $" {Speciality} {Group} {Rating} {Attendance}";
+        public override string ToString()=> base.ToString() + $" {Speciality,-15}{Group,-8} {Rating,5} {Attendance,3}";
       
     }
 }

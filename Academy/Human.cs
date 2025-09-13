@@ -18,10 +18,10 @@ namespace Academy
             LastName = lastName;
             FirstName = firstName;
             Age = age;
-          //  Console.WriteLine($"HConstructor:\t{GetHashCode().ToString("X")}"); 
+            //  Console.WriteLine($"HConstructor:\t{GetHashCode().ToString("X")}"); 
         }
         //~Human() => Console.WriteLine($"HDestructor:\t{GetHashCode().ToString("X")}"); 
-        public override string ToString()=> base.ToString() + $" {LastName} {FirstName} {Age}";
+        public override string ToString() => base.ToString() + $"\t{LastName,-20} {FirstName,-10} {Age,3}";
         
 
     }

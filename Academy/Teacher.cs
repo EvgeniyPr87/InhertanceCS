@@ -23,7 +23,7 @@ namespace Academy
          //   Console.WriteLine($"TConstructor:\t{GetHashCode().ToString("X")}"); 
 
         }
-        public override string ToString()=> base.ToString() + $" {Speciality} {Expirians}";
+        public override string ToString()=> base.ToString() + $"\t{Speciality,-15} {Expirians,5}";
        
     }
 }
