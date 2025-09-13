@@ -1,0 +1,5 @@
+Academy.HumanSchwartznegger Arnold 78
+Academy.StudentRios Leonardo 19metalworking MSO-12 87 79
+Academy.StudentChaos Fernando 18metalworking MSO-12 15 52
+Academy.TeacherWhite Genry 29metalworking5
+Academy.GraduateMartinos Salvador 21metalworking MSO-13 68 83
